@@ -76,6 +76,11 @@ z-index: 1;
   background-color: #2f80ed;
   border: 1px solid red;
 }
+.description {
+  border: 1px solid red;
+  margin: 0px 100px;
+
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
