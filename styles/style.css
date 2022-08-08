@@ -113,15 +113,34 @@ margin: 30px 0px;
 }
 .digits {
 border: 1px solid red;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .digits__section-title {
 margin-top: 100px;
-text-align: cente;
+text-align: center;
 width: 60%;
 line-height: 1.15;
 font-size: 60px;
 font-weight: 600;
+margin: 100px auto 20px;
 border: 1px solid red;
+}
+.digits__section-subtitle {
+  border: 1px solid red;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  width: 60%;
+  text-align: center;
+}
+.digits__table {
+  border: 1px solid red;
+  margin-bottom: 100px;
+  display: flex;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
