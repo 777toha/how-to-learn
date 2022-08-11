@@ -244,7 +244,7 @@ height: 877px;
 z-index: 1;
 top: 0;
 right: -210px;
-background-size: cover
+background-size: cover;
 }
 .footer {
   display: flex;
