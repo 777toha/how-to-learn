@@ -288,7 +288,7 @@ background-size: cover;
 .footer__column_links {
   display: flex;
   flex-direction: column;
-  padding: 20px 0 18px;
+  padding: 20px 0 16px;
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
