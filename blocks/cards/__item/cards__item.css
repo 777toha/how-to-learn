@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     margin: 0;
-    width: 220px;
+    width: 240px;
 }
 .cards__item:nth-child(2) {
     margin: 0 100px 0;
