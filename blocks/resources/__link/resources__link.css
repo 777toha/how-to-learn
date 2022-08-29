@@ -3,6 +3,7 @@
     height: 38px;
     background: no-repeat;
     background-position: center;
+    transition: opacity 1s ease-in-out;
 }
 .resources__link:first-child {
     background-image: url(../../../images/logo/resources-arzamas.svg);
@@ -16,9 +17,6 @@
 .resources__link:last-child {
     background-image: url(../../../images/logo/resources-polka.svg);
 }
-.resources__link {
-    transition: opacity 1s ease-in-out;
-  }
 .resources__link:hover {
   opacity: .5;
 }
