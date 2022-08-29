@@ -4,4 +4,8 @@
     list-style-type:none;
     color: white;
     text-decoration: none;
-    }
+    transition: opacity 1s ease-in-out;
+}
+.footer__column-link:hover {
+  opacity: .5;
+}

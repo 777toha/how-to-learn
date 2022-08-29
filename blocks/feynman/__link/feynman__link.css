@@ -8,4 +8,10 @@
     font-weight: 400;
     text-decoration: none;
     margin-right: 48px;
-  }
+    text-decoration: none;
+    color: #2f80ed;
+    transition: opacity 1s ease-in-out;
+}
+.feynman__link:hover {
+  opacity: .5;
+}
