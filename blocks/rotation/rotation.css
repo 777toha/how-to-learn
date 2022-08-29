@@ -6,18 +6,12 @@
         transform: rotate(360deg);
     }
 } 
-.rotation:hover {
+.rotation {
     animation-name: rotate;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
-.header__main-illustration:hover + .rotation {
-    animation-name: rotate;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;  
-}
 /*.rotation {
     transition: transform 20s linear;
 }
