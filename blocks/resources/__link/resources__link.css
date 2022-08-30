@@ -4,18 +4,8 @@
     background: no-repeat;
     background-position: center;
     transition: opacity 1s ease-in-out;
-}
-.resources__link:first-child {
-    background-image: url(../../../images/logo/resources-arzamas.svg);
-}
-.resources__link:nth-child(2) {
-    background-image: url(../../../images/logo/resources-n1.svg);
-}
-.resources__link:nth-child(3) {
-    background-image: url(../../../images/logo/resources-strelka.svg);
-}
-.resources__link:last-child {
-    background-image: url(../../../images/logo/resources-polka.svg);
+    display: flex;
+    justify-content: center;
 }
 .resources__link:hover {
   opacity: .5;
